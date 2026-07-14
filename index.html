@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-   <meta charset="utf-8">
-   <title>我的第一个网页</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Time Capsule</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-   <h1>欢迎来到我的网页</h1>
-   <p>这是一个段落。</p>
+  <h1 class="title">Time Capsule</h1>
+
+  <div class="player">
+    <video controls poster="assets/poster.svg">
+      <source src="assets/capsule.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <nav class="nav">
+    <a href="past.html">Past</a>
+    <a href="present.html">Present</a>
+    <a href="future.html">Future</a>
+  </nav>
 </body>
 </html>
